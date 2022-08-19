@@ -25,9 +25,10 @@ body {
   background-image: url(./image/Group\ 1962.png);
 
   width: 100%;
-  height: 650px;
+  height: 800px;
 }
 .banner__map {
+  
   justify-content: center;
   display: flex;
   position: relative;
@@ -35,7 +36,10 @@ body {
   color: #ffeb38;
 }
 .baner_map__img {
+  margin-top: 6em;
   position: absolute;
+  width: 45%;
+ 
 }
 
 .ibl__heading {
@@ -112,6 +116,8 @@ body {
 }
 .navbar__main {
   margin-top: 25px;
+  
+  
 }
 
 /* 2nd .navbar */
@@ -186,9 +192,10 @@ body {
 }
 .contect__header {
   text-align: center;
-  align-items: end;
+  align-items: center;
+  
 
-  padding-top: 190px;
+  padding-top: 15%;
 }
 .Intro__about_us {
   padding-top: 5em;
@@ -905,6 +912,7 @@ cursor: pointer;
 .fotter__top{
  display: flex;
  flex-wrap: wrap;
+ width: 100%;
  
 
  margin: 5em 1em;
@@ -1010,12 +1018,15 @@ cursor: pointer;
   display: flex;
   margin-left: .5em;
 }
-.fotter__bottom{
-  border-top: 3px solid #000;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  padding-top: 1em;
+
+.footer__bottom__span {
+  border: #001920 3px solid;
+  /* border-radius: 0em 4em 0em 0em; */
+  /* top: -1.4em; */
+  height: 175px;
+  /* z-index: -9; */
+
+  /* width: 110%; */
 }
 
 
