@@ -12,9 +12,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-/* html{
-  
-} */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -889,16 +887,99 @@ cursor: pointer;
   width:65%;
 }
 
+.footer{
+  width: 100%;
+  display: flex;
+  
+}
+.footer__img{
+  display: flex;
+  align-items: flex-end;
+}
+.footer___left__img{
+  height: 250px;
+  width: 150px;
+}
+.fotter__top{
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 5em;
+}
+.footer__section__con{
+  width: 33%;
+}
+
+.footer__heading__pra{
+  font-size: 18px;
+}
+.footer__heading__pra{
+  font-size: 14px;
+  padding-right: 1em;
+  margin-top: 1em;
+  font-weight: 400;
+}
+.footer___page__detail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 18%;
+  
+}
+.footer___sections__heading{
+  font-size: 14px;
+}
+.fotter___page__details__all{
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.8em 0;
+  width: fit-content;
+  
+}
+.footer__quick__link{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  width: 18%;
+}
+.footer__All__detail__con{
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.8em 0;
+  width: fit-content;
+}
+.footer__list{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  width: 18%;
+}
+.footer__list__detail{
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.8em 0;
+  width: fit-content;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 .Intro__about_us {
   animation-duration: 2s;
   animation-name: slidein;
-  
+ 
   scroll-behavior: unset;
 }
-
 
 @keyframes slidein {
   from {
