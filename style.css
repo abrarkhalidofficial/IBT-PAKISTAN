@@ -890,6 +890,8 @@ cursor: pointer;
 .footer{
   width: 100%;
   display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
   
 }
 .footer__img{
@@ -897,20 +899,33 @@ cursor: pointer;
   align-items: flex-end;
 }
 .footer___left__img{
-  height: 250px;
-  width: 150px;
+  height: 200px;
+  width: 120px;
 }
 .fotter__top{
  display: flex;
  flex-wrap: wrap;
- margin-bottom: 5em;
+ 
+
+ margin: 5em 1em;
 }
 .footer__section__con{
-  width: 33%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__heading__pra{
   font-size: 18px;
+  width: 35%;
+}
+.footer__Section__heading{
+  font-size: 18px;
+  
+}
+.footer__Section__heading span{
+ font-weight: bold;
+  
 }
 .footer__heading__pra{
   font-size: 14px;
@@ -923,10 +938,13 @@ cursor: pointer;
     flex-direction: column;
     padding-left: 1em;
     width: 18%;
+    border-left: 6px solid #ffeb38;
+    height: 160px;
   
 }
 .footer___sections__heading{
   font-size: 14px;
+  font-weight: bold;
 }
 .fotter___page__details__all{
   color: #000;
@@ -935,12 +953,15 @@ cursor: pointer;
   margin: 0.8em 0;
   width: fit-content;
   
+  
 }
 .footer__quick__link{
   display: flex;
   flex-direction: column;
   padding-left: 1em;
   width: 18%;
+  border-left: 6px solid #ffeb38;
+    height: 160px;
 }
 .footer__All__detail__con{
   color: #000;
@@ -954,6 +975,8 @@ cursor: pointer;
   flex-direction: column;
   padding-left: 1em;
   width: 18%;
+  border-left: 6px solid #ffeb38;
+    height: 160px;
 }
 .footer__list__detail{
   color: #000;
@@ -962,12 +985,38 @@ cursor: pointer;
   margin: 0.8em 0;
   width: fit-content;
 }
+.input__and__button{
+  display: flex;
+}
+.footer__input{
+  background-color: #ece6e6;
+  border-radius: 10px;
+  margin-top: 1em;
+  border: none;
+  padding: 1em;
+  display: flex;
+  width: 100%;
+}
 
-
-
-
-
-
+.footer__button{
+  background-color: #ffeb38;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: .1em;
+  width: 21%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: .5em;
+}
+.fotter__bottom{
+  border-top: 3px solid #000;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 1em;
+}
 
 
 
