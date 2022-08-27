@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+.All__main__Div {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   max-width: 1920px;
@@ -22,6 +26,7 @@ body {
 }
 
 .navbar {
+  object-fit: cover;
   width: 100%;
   height: 800px;
   background-image: url("Group 1962.2bb99467.png");
@@ -140,6 +145,12 @@ body {
   color: #000;
   font-size: 18px;
   text-decoration: none;
+}
+
+.side_nav ul li a:hover {
+  text-decoration: revert;
+  color: #000;
+  font-weight: bold;
 }
 
 @keyframes slider {
@@ -387,7 +398,7 @@ body {
 }
 
 .card__all__main {
-  width: 20%;
+  width: 25%;
   flex-direction: column;
   margin-bottom: 1em;
   display: flex;
@@ -552,6 +563,11 @@ body {
   font-size: 28px;
 }
 
+.feature__text:hover {
+  color: #000;
+  background-color: #efefef;
+}
+
 .features__right {
   width: 50%;
 }
@@ -566,12 +582,12 @@ body {
 .feature___span__line {
   height: 470px;
   z-index: -9;
+  position: inherit;
   width: 90%;
   border: 1px solid #001920;
   border-radius: 0 6em 0 0;
   padding-top: 30px;
   padding-left: 6%;
-  position: relative;
 }
 
 .span__featuresss__us {
@@ -601,14 +617,14 @@ body {
   max-width: 1920px;
   background-color: #ffeb38;
   margin-top: 20px;
-  margin-left: 14em;
+  margin-left: 13em;
   position: absolute;
 }
 
 .location__heading {
   width: -moz-fit-content;
   width: fit-content;
-  margin: 0 1em 1em 5.7em;
+  margin: 0 1em 1em 5em;
   font-size: 40px;
   font-weight: bold;
 }
@@ -692,10 +708,10 @@ body {
 .location___two_second_pra {
   width: 60%;
   z-index: 999;
-  margin: 0 4.5em 0 16.5em;
+  margin: 0 4.5em 0 14.5em;
   padding-top: 1em;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .location__contact__us {
@@ -795,7 +811,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 10em;
+  margin-left: 5.5em;
   display: flex;
 }
 
@@ -805,7 +821,8 @@ body {
 }
 
 .footer__Section__heading {
-  font-size: 18px;
+  margin-bottom: 1em;
+  font-size: 22px;
 }
 
 .footer__Section__heading span {
@@ -906,6 +923,10 @@ body {
   display: flex;
 }
 
+.input__and__button input {
+  outline: none;
+}
+
 @media (max-width: 1600px) {
   .navbar__main {
     margin-right: 1em;
@@ -964,6 +985,11 @@ body {
   .navbar {
     height: 500px;
   }
+
+  .side_nav {
+    width: 240px;
+    height: 70vh;
+  }
 }
 
 @media (max-width: 900px) {
@@ -990,6 +1016,11 @@ body {
   .ibl__heading {
     margin-left: 135px;
     font-size: 23px;
+  }
+
+  .side_nav {
+    width: 240px;
+    height: 63vh;
   }
 }
 
@@ -1021,6 +1052,11 @@ body {
   .ibl__heading {
     margin-left: 125px;
     font-size: 23px;
+  }
+
+  .side_nav {
+    width: 240px;
+    height: 57vh;
   }
 }
 
@@ -1083,6 +1119,11 @@ body {
   .contect__header__line_two {
     font-size: 22px;
   }
+
+  .side_nav {
+    width: 240px;
+    height: 68vh;
+  }
 }
 
 @media (max-width: 450px) {
@@ -1090,8 +1131,17 @@ body {
     width: 80%;
   }
 
+  .navbar {
+    background-image: url("Group 1962(1).a6426501.jpg");
+  }
+
   .menu_btn {
     right: 0%;
+  }
+
+  .side_nav {
+    width: 210px;
+    height: 50vh;
   }
 
   .navbar {
@@ -1123,6 +1173,14 @@ body {
 
   .menu_btn {
     background-color: #0000;
+  }
+
+  .side_nav ul li {
+    margin: 38px 12px;
+  }
+
+  .side_nav ul li a {
+    font-size: 17px;
   }
 }
 
@@ -1164,6 +1222,21 @@ body {
 
   .menu_btn {
     background-color: #0000;
+  }
+
+  .side_nav {
+    width: 197px;
+    height: 39vh;
+  }
+
+  .side_nav ul li {
+    margin: 27px 13px;
+  }
+
+  .side_nav ul li a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
   }
 }
 
@@ -1227,7 +1300,7 @@ body {
 
 @media (max-width: 1350px) {
   .about_us__heading {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .span__About__us {
@@ -2563,6 +2636,36 @@ body {
   }
 }
 
+@media (max-width: 1380px) {
+  .location__heading {
+    margin-left: 3.4em;
+    font-size: 35px;
+  }
+
+  .span__location__us {
+    margin-left: 8em;
+  }
+
+  .location__main {
+    margin-left: -2.5em;
+  }
+}
+
+@media (max-width: 1250px) {
+  .location__heading {
+    margin-left: 3em;
+    font-size: 35px;
+  }
+
+  .span__location__us {
+    margin-left: 7em;
+  }
+
+  .location__main {
+    margin-left: -2.5em;
+  }
+}
+
 @media (max-width: 1120px) {
   .location__all__con {
     width: 37%;
@@ -3288,7 +3391,7 @@ body {
     width: 100%;
     width: 50%;
     flex-wrap: wrap;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
   }
 
   .footer__list {
@@ -3338,7 +3441,7 @@ body {
   }
 
   .footer__list {
-    width: 60%;
+    width: 90%;
     font-size: 10px;
   }
 
@@ -3466,9 +3569,10 @@ body {
   }
 
   .links___footer___all {
-    width: 95%;
+    width: 85%;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1em;
   }
 }
 
