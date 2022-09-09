@@ -128,9 +128,9 @@ body {
   top: 0;
   /* left: 82%; */
   background: #ffeb38;
-  z-index: 3;
+  z-index: 9999;
 
-  display: none;
+  /* display: none; */
   animation: slider 1s both;
   transition: 300ms ease-in-out;
 }
