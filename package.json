@@ -4,9 +4,9 @@
   "description": "PAKISTAN'S LARGEST BUSINESS TOWN",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "deploy":"npm run build && firebase deploy"
+    "start": "node init && parcel",
+    "build": "node init && parcel build",
+    "deploy": "npm run build && firebase deploy"
   },
   "repository": {
     "type": "git",
